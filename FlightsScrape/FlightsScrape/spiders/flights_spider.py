@@ -19,30 +19,21 @@ class FlightsSpider(scrapy.Spider):
     def parse(self, response):
         self.driver.get(response.url)
         timeout = 3
-        element_present = expected_conditions.presence_of_all_elements_located((By.CLASS_NAME, 'odd'))
+        element_present = expected_conditions.presence_of_all_elements_located((By.CLASS_NAME, 'even'))
         WebDriverWait(self.driver, timeout).until(element_present)
         soup = BeautifulSoup(self.driver.page_source, "html.parser")
         oddFlights = soup.find_all("tr", {"class": "odd"})
         evenFlights = soup.find_all("tr", {"class": "even"})
+        evenFlights.pop(0)
+        flights = oddFlights + evenFlights
 
-        for oddFlight in oddFlights:
+        for flight in flights:
             yield {
-                'company': oddFlight.find_all("td", {"class": "flightIcons"})[0].get_text(),
-                'flightNumber': oddFlight.find_all("td", {"class": "FlightNum"})[0].get_text(),
-                'cameFrom': oddFlight.find_all("td", {"class": "FlightFrom"})[0].get_text(),
-                'flightTime': oddFlight.find_all("td", {"class": "FlightTime"})[0].get_text(),
-                'finalTime': oddFlight.find_all("td", {"class": "finalTime"})[0].get_text(),
-                'terminalNumber': oddFlight.find_all("td", {"class": "localTerminal"})[0].get_text(),
-                'status': oddFlight.find_all("td", {"class": "status"})[0].get_text(),
-            }
-
-        for evenFlight in evenFlights:
-            yield {
-                'company': oddFlight.find_all("td", {"class": "flightIcons"})[0].get_text(),
-                'flightNumber': oddFlight.find_all("td", {"class": "FlightNum"})[0].get_text(),
-                'cameFrom': oddFlight.find_all("td", {"class": "FlightFrom"})[0].get_text(),
-                'flightTime': oddFlight.find_all("td", {"class": "FlightTime"})[0].get_text(),
-                'finalTime': oddFlight.find_all("td", {"class": "finalTime"})[0].get_text(),
-                'terminalNumber': oddFlight.find_all("td", {"class": "localTerminal"})[0].get_text(),
-                'status': oddFlight.find_all("td", {"class": "status"})[0].get_text(),
+                'company': flight.find("img", {"class": "logoImg"})['alt'],
+                'flightNumber': flight.find("td", {"class": "FlightNum"}).get_text(),
+                'cameFrom': flight.find("td", {"class": "FlightFrom"}).get_text(),
+                'flightTime': flight.find("td", {"class": "FlightTime"}).get_text(),
+                'finalTime': flight.find("td", {"class": "finalTime"}).get_text(),
+                'terminalNumber': flight.find("td", {"class": "localTerminal"}).get_text(),
+                'status': flight.find("td", {"class": "status"}).get_text(),
             }
