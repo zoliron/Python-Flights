@@ -5,6 +5,8 @@ from selenium.webdriver.support import expected_conditions
 from selenium.webdriver.common.by import By
 from bs4 import BeautifulSoup
 
+from ..items import FlightsScrapeItem
+
 
 class FlightsSpider(scrapy.Spider):
     name = 'flights'
@@ -18,6 +20,7 @@ class FlightsSpider(scrapy.Spider):
 
     # How to parse the information from the page
     def parse(self, response):
+        items = FlightsScrapeItem()
         self.driver.get(response.url)
 
         # Making the driver to wait until the condition is met (Waiting for the table to load to click on the button
@@ -55,14 +58,14 @@ class FlightsSpider(scrapy.Spider):
         for flight in flights:
             i = i + 1
             try:
-                yield {
-                    'company': flight.find("img", {"class": "logoImg"})['alt'],
-                    'flightNumber': flight.find("td", {"class": "FlightNum"}).get_text(),
-                    'cameFrom': flight.find("td", {"class": "FlightFrom"}).get_text(),
-                    'flightTime': flight.find("td", {"class": "FlightTime"}).get_text(),
-                    'finalTime': flight.find("td", {"class": "finalTime"}).get_text(),
-                    'terminalNumber': flight.find("td", {"class": "localTerminal"}).get_text(),
-                    'status': flight.find("td", {"class": "status"}).get_text(),
-                }
+                items['company'] = flight.find("img", {"class": "logoImg"})['alt'],
+                items['flightNumber'] = flight.find("td", {"class": "FlightNum"}).get_text(),
+                items['cameFrom'] = flight.find("td", {"class": "FlightFrom"}).get_text(),
+                items['flightTime'] = flight.find("td", {"class": "FlightTime"}).get_text(),
+                items['finalTime'] = flight.find("td", {"class": "finalTime"}).get_text(),
+                items['terminalNumber'] = flight.find("td", {"class": "localTerminal"}).get_text(),
+                items['status'] = flight.find("td", {"class": "status"}).get_text(),
+
+                yield items
             except:
                 print('Flight number ' + str(i) + ' got into an error')
