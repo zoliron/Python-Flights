@@ -1,2 +1,2 @@
-1. Use the command scrapy crawl flights
-2. If you want to save the output to a JSON file use scrapy crawl flights -o flights.jl/json
+1. Use the command - scrapy crawl flights
+2. If you want to save the output to a JSON file use - scrapy crawl flights -o flights.jl/json
