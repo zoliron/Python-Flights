@@ -7,6 +7,11 @@
 
 import scrapy
 
+"""
+This class defines how the items retrieved from the page will be stored,
+Then sends the data to the class Pipelines for storing it in JSON file
+"""
+
 
 class FlightsscrapingItem(scrapy.Item):
     # define the fields for your item here like:

@@ -14,6 +14,11 @@ from selenium.webdriver.support.ui import WebDriverWait
 
 from ..items import FlightsscrapingItem
 
+"""
+This class defines how the spider works, how it retrieves data from the page and parse it,
+Then sends the data to the class Items
+"""
+
 
 class FlightsSpider(scrapy.Spider):
     name = 'Flights'
@@ -82,7 +87,6 @@ class FlightsSpider(scrapy.Spider):
                 print('Flight number ' + str(i) + ' got into an error')
 
         self.driver.close()
-
 
     def deleteFlights(self, jsonFilePath):
         try:

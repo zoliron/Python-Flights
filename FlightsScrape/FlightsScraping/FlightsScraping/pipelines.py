@@ -9,6 +9,10 @@ import json
 import logging
 import os
 
+"""
+This class defines how the items from Items class will be stored in our JSON file
+"""
+
 
 class FlightsscrapingPipeline(object):
     def __init__(self):

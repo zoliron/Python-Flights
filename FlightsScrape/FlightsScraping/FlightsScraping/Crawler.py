@@ -6,6 +6,10 @@ from twisted.internet import reactor
 
 from FlightsScrape.FlightsScraping.FlightsScraping.spiders.Flights import FlightsSpider
 
+"""
+This class defines how the Crawler operates the spider,
+"""
+
 
 class Crawler():
     def crawlJob(self):

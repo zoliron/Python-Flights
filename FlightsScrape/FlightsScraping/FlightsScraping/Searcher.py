@@ -1,5 +1,10 @@
 from pyjsonq import JsonQ
 
+"""
+This class responsible for the searches in the JSON file
+It works as a terminal program with multiple choices for searches
+"""
+
 
 class Searcher():
     def numbersToCategory(self, number):
