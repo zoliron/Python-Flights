@@ -43,7 +43,6 @@ class Searcher():
                 company = input('Choose the company you want to search for: ')
                 self.parseResult(selectionCategory, company)
 
-
             elif selectionCategory == "flightNumber":
                 flightNumber = input('Choose the flight number you want to search for: ')
                 self.parseResult(selectionCategory, flightNumber)
