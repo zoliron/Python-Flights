@@ -1,26 +1,274 @@
 {"flights":
 [{
-    "company": "LAUDA MOTION",
-    "flightNumber": "\n                OE 186\n            ",
-    "cameFrom": "\n\u05d5\u05d9\u05e0\u05d4\n",
-    "flightTime": "13/03 11:40",
-    "finalTime": "11:40",
+    "company": "\u05d0\u05e8\u05e7\u05d9\u05e2",
+    "flightNumber": "\n                IZ 802\n            ",
+    "cameFrom": "\n\u05d0\u05d9\u05dc\u05ea - \u05e8\u05de\u05d5\u05df\n",
+    "flightTime": "13/03 12:20",
+    "finalTime": "14:15",
+    "terminalNumber": "\n                1\n            ",
+    "status": "\u05e2\u05d9\u05db\u05d5\u05d1"
+},{
+    "company": "\u05d0\u05d5\u05e7\u05e8\u05d0\u05d9\u05e0\u05d9\u05d9\u05df \u05d0\u05d9\u05e0\u05d8\u05e8\u05e0\u05e9\u05e0\u05dc \u05d0\u05d9\u05d9\u05e8\u05dc\u05d9\u05d9\u05e0\u05e1",
+    "flightNumber": "\n                PS 775\n            ",
+    "cameFrom": "\n\u05e7\u05d9\u05d9\u05d1\n",
+    "flightTime": "13/03 13:05",
+    "finalTime": "13:10",
+    "terminalNumber": "\n                3\n            ",
+    "status": "\u05e0\u05d7\u05ea\u05d4"
+},{
+    "company": "\u05d0\u05dc \u05e2\u05dc",
+    "flightNumber": "\n                LY 026\n            ",
+    "cameFrom": "\n\u05e0\u05d9\u05d5\u05d0\u05e8\u05e7\n",
+    "flightTime": "13/03 13:20",
+    "finalTime": "12:56",
+    "terminalNumber": "\n                3\n            ",
+    "status": "\u05e0\u05d7\u05ea\u05d4"
+},{
+    "company": "\u05d0\u05d5\u05e8\u05dc \u05d0\u05d9\u05d9\u05e8\u05dc\u05d9\u05d9\u05e0\u05e1",
+    "flightNumber": "\n                U6 889\n            ",
+    "cameFrom": "\n\u05de\u05d5\u05e1\u05e7\u05d1\u05d4\n",
+    "flightTime": "13/03 13:40",
+    "finalTime": "13:39",
+    "terminalNumber": "\n                3\n            ",
+    "status": "\u05e0\u05d7\u05ea\u05d4"
+},{
+    "company": "\u05d0\u05dc \u05e2\u05dc",
+    "flightNumber": "\n                LY 018\n            ",
+    "cameFrom": "\n\u05de\u05d9\u05d0\u05de\u05d9\n",
+    "flightTime": "13/03 13:50",
+    "finalTime": "14:12",
+    "terminalNumber": "\n                3\n            ",
+    "status": "\u05e1\u05d5\u05e4\u05d9"
+},{
+    "company": "AEROMEXICO",
+    "flightNumber": "\n                AM 7874\n            ",
+    "cameFrom": "\n\u05dc\u05d5\u05e1 \u05d0\u05e0\u05d2'\u05dc\u05e1\n",
+    "flightTime": "13/03 14:00",
+    "finalTime": "13:45",
+    "terminalNumber": "\n                3\n            ",
+    "status": "\u05d1\u05e0\u05d7\u05d9\u05ea\u05d4"
+},{
+    "company": "\u05d0\u05dc \u05e2\u05dc",
+    "flightNumber": "\n                LY 008\n            ",
+    "cameFrom": "\n\u05e0\u05d9\u05d5 \u05d9\u05d5\u05e8\u05e7\n",
+    "flightTime": "13/03 14:10",
+    "finalTime": "14:11",
+    "terminalNumber": "\n                3\n            ",
+    "status": "\u05e1\u05d5\u05e4\u05d9"
+},{
+    "company": "AEROMEXICO",
+    "flightNumber": "\n                AM 7856\n            ",
+    "cameFrom": "\n\u05e0\u05d9\u05d5 \u05d9\u05d5\u05e8\u05e7\n",
+    "flightTime": "13/03 14:10",
+    "finalTime": "14:11",
+    "terminalNumber": "\n                3\n            ",
+    "status": "\u05e1\u05d5\u05e4\u05d9"
+},{
+    "company": "\u05d9\u05e9\u05e8\u05d0\u05d9\u05d9\u05e8",
+    "flightNumber": "\n                6H 812\n            ",
+    "cameFrom": "\n\u05e1\u05d5\u05e6'\u05d9\n",
+    "flightTime": "13/03 14:50",
+    "finalTime": "14:40",
+    "terminalNumber": "\n                3\n            ",
+    "status": "\u05e1\u05d5\u05e4\u05d9"
+},{
+    "company": "\u05d9\u05e9\u05e8\u05d0\u05d9\u05d9\u05e8",
+    "flightNumber": "\n                6H 882\n            ",
+    "cameFrom": "\n\u05d1\u05d0\u05e7\u05d5\n",
+    "flightTime": "13/03 15:00",
+    "finalTime": "14:00",
+    "terminalNumber": "\n                3\n            ",
+    "status": "\u05e1\u05d5\u05e4\u05d9"
+},{
+    "company": "\u05d1\u05e8\u05d9\u05d8\u05d9\u05e9 \u05d0\u05d9\u05d9\u05e8\u05d5\u05d5\u05d9\u05d9\u05d6",
+    "flightNumber": "\n                BA 165\n            ",
+    "cameFrom": "\n\u05dc\u05d5\u05e0\u05d3\u05d5\u05df\n",
+    "flightTime": "13/03 15:15",
+    "finalTime": "15:10",
+    "terminalNumber": "\n                3\n            ",
+    "status": "\u05e1\u05d5\u05e4\u05d9"
+},{
+    "company": "EasyJetEurope",
+    "flightNumber": "\n                EJU 5831\n            ",
+    "cameFrom": "\n\u05d1\u05e8\u05dc\u05d9\u05df\n",
+    "flightTime": "13/03 15:45",
+    "finalTime": "15:35",
+    "terminalNumber": "\n                3\n            ",
+    "status": "\u05e1\u05d5\u05e4\u05d9"
+},{
+    "company": "\u05d3\u05dc\u05ea\u05d0 \u05d0\u05d9\u05d9\u05e8\u05dc\u05d9\u05d9\u05e0\u05e1",
+    "flightNumber": "\n                DL 468\n            ",
+    "cameFrom": "\n\u05e0\u05d9\u05d5 \u05d9\u05d5\u05e8\u05e7\n",
+    "flightTime": "13/03 16:05",
+    "finalTime": "15:10",
+    "terminalNumber": "\n                3\n            ",
+    "status": "\u05e1\u05d5\u05e4\u05d9"
+},{
+    "company": "\u05e8\u05d5\u05d9\u05d9\u05dc \u05d2'\u05d5\u05e8\u05d3\u05e0\u05d9\u05d0\u05df",
+    "flightNumber": "\n                RJ 344\n            ",
+    "cameFrom": "\n\u05e2\u05de\u05d0\u05df\n",
+    "flightTime": "13/03 16:55",
+    "finalTime": "16:55",
+    "terminalNumber": "\n                3\n            ",
+    "status": "\u05dc\u05d0 \u05e1\u05d5\u05e4\u05d9"
+},{
+    "company": "RYANAIR",
+    "flightNumber": "\n                FR 6472\n            ",
+    "cameFrom": "\n\u05d1\u05e8\u05dc\u05d9\u05df\n",
+    "flightTime": "13/03 17:35",
+    "finalTime": "17:35",
+    "terminalNumber": "\n                3\n            ",
+    "status": "\u05dc\u05d0 \u05e1\u05d5\u05e4\u05d9"
+},{
+    "company": "\u05e4\u05d2\u05e1\u05d5\u05e1 \u05d0\u05d9\u05d9\u05e8\u05dc\u05d9\u05d9\u05e0\u05e1",
+    "flightNumber": "\n                PC 7779\n            ",
+    "cameFrom": "\n\u05d0\u05d9\u05e1\u05d8\u05e0\u05d1\u05d5\u05dc\n",
+    "flightTime": "13/03 19:50",
+    "finalTime": "19:50",
+    "terminalNumber": "\n                3\n            ",
+    "status": "\u05dc\u05d0 \u05e1\u05d5\u05e4\u05d9"
+},{
+    "company": "\u05d0\u05dc \u05e2\u05dc",
+    "flightNumber": "\n                LY 8806\n            ",
+    "cameFrom": "\n\u05d0\u05d3\u05d9\u05e1 \u05d0\u05d1\u05d1\u05d4\n",
+    "flightTime": "13/03 20:10",
+    "finalTime": "20:10",
+    "terminalNumber": "\n                3\n            ",
+    "status": "\u05dc\u05d0 \u05e1\u05d5\u05e4\u05d9"
+},{
+    "company": "\u05d0\u05ea\u05d9\u05d5\u05e4\u05d9\u05d0\u05df \u05d0\u05d9\u05d9\u05e8\u05dc\u05d9\u05e0\u05e1",
+    "flightNumber": "\n                ET 414\n            ",
+    "cameFrom": "\n\u05d0\u05d3\u05d9\u05e1 \u05d0\u05d1\u05d1\u05d4\n",
+    "flightTime": "13/03 20:10",
+    "finalTime": "20:10",
+    "terminalNumber": "\n                3\n            ",
+    "status": "\u05dc\u05d0 \u05e1\u05d5\u05e4\u05d9"
+},{
+    "company": "\u05d9\u05e9\u05e8\u05d0\u05d9\u05d9\u05e8",
+    "flightNumber": "\n                6H 5830\n            ",
+    "cameFrom": "\n\u05e8\u05d5\u05d1\u05e0\u05d9\u05d9\u05de\u05d9\n",
+    "flightTime": "13/03 21:05",
+    "finalTime": "21:05",
+    "terminalNumber": "\n                3\n            ",
+    "status": "\u05dc\u05d0 \u05e1\u05d5\u05e4\u05d9"
+},{
+    "company": "\u05d9\u05d5\u05e0\u05d9\u05d9\u05d8\u05d3 \u05d0\u05d9\u05d9\u05e8\u05dc\u05d9\u05d9\u05e0\u05e1",
+    "flightNumber": "\n                UA 954\n            ",
+    "cameFrom": "\n\u05e1\u05df \u05e4\u05e8\u05e0\u05e1\u05d9\u05e1\u05e7\u05d5\n",
+    "flightTime": "13/03 21:40",
+    "finalTime": "21:10",
+    "terminalNumber": "\n                3\n            ",
+    "status": "\u05e1\u05d5\u05e4\u05d9"
+},{
+    "company": "\u05d8\u05d5\u05e8\u05e7\u05d9\u05e9 \u05d0\u05d9\u05d9\u05e8\u05dc\u05d9\u05d9\u05e0\u05e1",
+    "flightNumber": "\n                TK 864\n            ",
+    "cameFrom": "\n\u05d0\u05d9\u05e1\u05d8\u05e0\u05d1\u05d5\u05dc\n",
+    "flightTime": "13/03 21:40",
+    "finalTime": "21:40",
+    "terminalNumber": "\n                3\n            ",
+    "status": "\u05dc\u05d0 \u05e1\u05d5\u05e4\u05d9"
+},{
+    "company": "\u05e8\u05d5\u05d9\u05d9\u05dc \u05d2'\u05d5\u05e8\u05d3\u05e0\u05d9\u05d0\u05df",
+    "flightNumber": "\n                RJ 340\n            ",
+    "cameFrom": "\n\u05e2\u05de\u05d0\u05df\n",
+    "flightTime": "13/03 22:45",
+    "finalTime": "22:45",
+    "terminalNumber": "\n                3\n            ",
+    "status": "\u05dc\u05d0 \u05e1\u05d5\u05e4\u05d9"
+},{
+    "company": "\u05e4\u05d9\u05e0\u05d0\u05d9\u05d9\u05e8",
+    "flightNumber": "\n                AY 1979\n            ",
+    "cameFrom": "\n\u05d4\u05dc\u05e1\u05d9\u05e0\u05e7\u05d9\n",
+    "flightTime": "14/03 00:20",
+    "finalTime": "00:20",
+    "terminalNumber": "\n                3\n            ",
+    "status": "\u05dc\u05d0 \u05e1\u05d5\u05e4\u05d9"
+},{
+    "company": "\u05d3\u05dc\u05ea\u05d0 \u05d0\u05d9\u05d9\u05e8\u05dc\u05d9\u05d9\u05e0\u05e1",
+    "flightNumber": "\n                DL 9575\n            ",
+    "cameFrom": "\n\u05d0\u05de\u05e1\u05d8\u05e8\u05d3\u05dd\n",
+    "flightTime": "14/03 02:45",
+    "finalTime": "02:45",
+    "terminalNumber": "\n                3\n            ",
+    "status": "\u05dc\u05d0 \u05e1\u05d5\u05e4\u05d9"
+},{
+    "company": "\u05d0\u05ea\u05d9\u05d5\u05e4\u05d9\u05d0\u05df \u05d0\u05d9\u05d9\u05e8\u05dc\u05d9\u05e0\u05e1",
+    "flightNumber": "\n                ET 404\n            ",
+    "cameFrom": "\n\u05d0\u05d3\u05d9\u05e1 \u05d0\u05d1\u05d1\u05d4\n",
+    "flightTime": "14/03 03:00",
+    "finalTime": "03:00",
+    "terminalNumber": "\n                3\n            ",
+    "status": "\u05dc\u05d0 \u05e1\u05d5\u05e4\u05d9"
+},{
+    "company": "\u05d1\u05e8\u05d9\u05d8\u05d9\u05e9 \u05d0\u05d9\u05d9\u05e8\u05d5\u05d5\u05d9\u05d9\u05d6",
+    "flightNumber": "\n                BA 163\n            ",
+    "cameFrom": "\n\u05dc\u05d5\u05e0\u05d3\u05d5\u05df\n",
+    "flightTime": "14/03 03:55",
+    "finalTime": "03:55",
     "terminalNumber": "\n                3\n            ",
     "status": "\u05de\u05d1\u05d5\u05d8\u05dc\u05ea"
 },{
     "company": "RYANAIR",
-    "flightNumber": "\n                FR 6754\n            ",
-    "cameFrom": "\n\u05d1\u05d5\u05d3\u05e4\u05e9\u05d8\n",
-    "flightTime": "13/03 12:20",
-    "finalTime": "12:15",
+    "flightNumber": "\n                FR 4161\n            ",
+    "cameFrom": "\n\u05e4\u05d0\u05e4\u05d5\u05e1\n",
+    "flightTime": "14/03 07:45",
+    "finalTime": "07:45",
     "terminalNumber": "\n                3\n            ",
-    "status": "\u05e0\u05d7\u05ea\u05d4"
+    "status": "\u05dc\u05d0 \u05e1\u05d5\u05e4\u05d9"
+},{
+    "company": "\u05d8\u05d5\u05e8\u05e7\u05d9\u05e9 \u05d0\u05d9\u05d9\u05e8\u05dc\u05d9\u05d9\u05e0\u05e1",
+    "flightNumber": "\n                TK 784\n            ",
+    "cameFrom": "\n\u05d0\u05d9\u05e1\u05d8\u05e0\u05d1\u05d5\u05dc\n",
+    "flightTime": "14/03 08:55",
+    "finalTime": "08:55",
+    "terminalNumber": "\n                3\n            ",
+    "status": "\u05dc\u05d0 \u05e1\u05d5\u05e4\u05d9"
+},{
+    "company": "\u05d0\u05d9\u05d6\u05d9 \u05d2'\u05d8 \u05e9\u05d5\u05d5\u05d9\u05e5",
+    "flightNumber": "\n                EZS 1525\n            ",
+    "cameFrom": "\n\u05d6'\u05e0\u05d1\u05d4\n",
+    "flightTime": "14/03 11:05",
+    "finalTime": "11:05",
+    "terminalNumber": "\n                3\n            ",
+    "status": "\u05dc\u05d0 \u05e1\u05d5\u05e4\u05d9"
+},{
+    "company": "\u05d0\u05b5\u05e8\u05d5\u05e4\u05dc\u05d5\u05d8 \u05e8\u05d0\u05e9\u05df \u05d0\u05d9\u05d9\u05e8\u05dc\u05d9\u05d9\u05e0\u05e1",
+    "flightNumber": "\n                SU 502\n            ",
+    "cameFrom": "\n\u05de\u05d5\u05e1\u05e7\u05d1\u05d4\n",
+    "flightTime": "14/03 11:50",
+    "finalTime": "11:50",
+    "terminalNumber": "\n                3\n            ",
+    "status": "\u05dc\u05d0 \u05e1\u05d5\u05e4\u05d9"
 },{
     "company": "EasyJetEurope",
     "flightNumber": "\n                EJU 7933\n            ",
     "cameFrom": "\n\u05d0\u05de\u05e1\u05d8\u05e8\u05d3\u05dd\n",
-    "flightTime": "13/03 13:00",
-    "finalTime": "12:28",
+    "flightTime": "14/03 13:00",
+    "finalTime": "13:00",
+    "terminalNumber": "\n                3\n            ",
+    "status": "\u05dc\u05d0 \u05e1\u05d5\u05e4\u05d9"
+},{
+    "company": "\u05e8\u05d5\u05e1\u05d9\u05d4 \u05d0\u05d9\u05d9\u05e8\u05dc\u05d9\u05d9\u05e0\u05e1",
+    "flightNumber": "\n                FV 6627\n            ",
+    "cameFrom": "\n\u05e1\u05d8.\u05e4\u05d8\u05e8\u05e1\u05d1\u05d5\u05e8\u05d2\n",
+    "flightTime": "14/03 13:30",
+    "finalTime": "13:30",
+    "terminalNumber": "\n                3\n            ",
+    "status": "\u05dc\u05d0 \u05e1\u05d5\u05e4\u05d9"
+},{
+    "company": "EasyJetEurope",
+    "flightNumber": "\n                EJU 1785\n            ",
+    "cameFrom": "\n\u05d8\u05d5\u05dc\u05d5\u05d6\n",
+    "flightTime": "14/03 13:45",
+    "finalTime": "13:45",
+    "terminalNumber": "\n                3\n            ",
+    "status": "\u05dc\u05d0 \u05e1\u05d5\u05e4\u05d9"
+},{
+    "company": "\u05d0\u05dc \u05e2\u05dc",
+    "flightNumber": "\n                LY 032\n            ",
+    "cameFrom": "\n\u05d8\u05d5\u05e8\u05d5\u05e0\u05d8\u05d5\n",
+    "flightTime": "13/03 12:50",
+    "finalTime": "13:07",
     "terminalNumber": "\n                3\n            ",
     "status": "\u05e0\u05d7\u05ea\u05d4"
 },{
@@ -44,9 +292,9 @@
     "flightNumber": "\n                6H 432\n            ",
     "cameFrom": "\n\u05d0\u05d9\u05dc\u05ea - \u05e8\u05de\u05d5\u05df\n",
     "flightTime": "13/03 13:40",
-    "finalTime": "13:52",
+    "finalTime": "14:03",
     "terminalNumber": "\n                1\n            ",
-    "status": "\u05dc\u05d0 \u05e1\u05d5\u05e4\u05d9"
+    "status": "\u05e1\u05d5\u05e4\u05d9"
 },{
     "company": "AEROLINEASARGENTINAS",
     "flightNumber": "\n                AR 7850\n            ",
@@ -60,12 +308,12 @@
     "flightNumber": "\n                LY 006\n            ",
     "cameFrom": "\n\u05dc\u05d5\u05e1 \u05d0\u05e0\u05d2'\u05dc\u05e1\n",
     "flightTime": "13/03 14:00",
-    "finalTime": "13:47",
+    "finalTime": "13:45",
     "terminalNumber": "\n                3\n            ",
-    "status": "\u05e1\u05d5\u05e4\u05d9"
+    "status": "\u05d1\u05e0\u05d7\u05d9\u05ea\u05d4"
 },{
-    "company": "AEROMEXICO",
-    "flightNumber": "\n                AM 7856\n            ",
+    "company": "AEROLINEASARGENTINAS",
+    "flightNumber": "\n                AR 7856\n            ",
     "cameFrom": "\n\u05e0\u05d9\u05d5 \u05d9\u05d5\u05e8\u05e7\n",
     "flightTime": "13/03 14:10",
     "finalTime": "14:11",
@@ -78,13 +326,13 @@
     "flightTime": "13/03 14:15",
     "finalTime": "13:58",
     "terminalNumber": "\n                3\n            ",
-    "status": "\u05e1\u05d5\u05e4\u05d9"
+    "status": "\u05d1\u05e0\u05d7\u05d9\u05ea\u05d4"
 },{
-    "company": "\u05d9\u05e9\u05e8\u05d0\u05d9\u05d9\u05e8",
-    "flightNumber": "\n                6H 882\n            ",
-    "cameFrom": "\n\u05d1\u05d0\u05e7\u05d5\n",
+    "company": "\u05d0\u05de\u05e8\u05d9\u05e7\u05df \u05d0\u05d9\u05d9\u05e8\u05dc\u05d9\u05d9\u05e0\u05e1",
+    "flightNumber": "\n                AA 8384\n            ",
+    "cameFrom": "\n\u05e4\u05e8\u05e0\u05e7\u05e4\u05d5\u05e8\u05d8\n",
     "flightTime": "13/03 15:00",
-    "finalTime": "14:00",
+    "finalTime": "14:21",
     "terminalNumber": "\n                3\n            ",
     "status": "\u05e1\u05d5\u05e4\u05d9"
 },{
@@ -208,8 +456,8 @@
     "terminalNumber": "\n                3\n            ",
     "status": "\u05dc\u05d0 \u05e1\u05d5\u05e4\u05d9"
 },{
-    "company": "\u05d0\u05ea\u05d9\u05d5\u05e4\u05d9\u05d0\u05df \u05d0\u05d9\u05d9\u05e8\u05dc\u05d9\u05e0\u05e1",
-    "flightNumber": "\n                ET 404\n            ",
+    "company": "\u05d0\u05dc \u05e2\u05dc",
+    "flightNumber": "\n                LY 8804\n            ",
     "cameFrom": "\n\u05d0\u05d3\u05d9\u05e1 \u05d0\u05d1\u05d1\u05d4\n",
     "flightTime": "14/03 03:00",
     "finalTime": "03:00",
@@ -264,259 +512,11 @@
     "terminalNumber": "\n                3\n            ",
     "status": "\u05dc\u05d0 \u05e1\u05d5\u05e4\u05d9"
 },{
-    "company": "\u05d0\u05e8\u05e7\u05d9\u05e2",
-    "flightNumber": "\n                IZ 802\n            ",
-    "cameFrom": "\n\u05d0\u05d9\u05dc\u05ea - \u05e8\u05de\u05d5\u05df\n",
-    "flightTime": "13/03 12:20",
-    "finalTime": "14:15",
-    "terminalNumber": "\n                1\n            ",
-    "status": "\u05e2\u05d9\u05db\u05d5\u05d1"
-},{
-    "company": "\u05d0\u05dc \u05e2\u05dc",
-    "flightNumber": "\n                LY 032\n            ",
-    "cameFrom": "\n\u05d8\u05d5\u05e8\u05d5\u05e0\u05d8\u05d5\n",
-    "flightTime": "13/03 12:50",
-    "finalTime": "13:06",
-    "terminalNumber": "\n                3\n            ",
-    "status": "\u05d1\u05e0\u05d7\u05d9\u05ea\u05d4"
-},{
-    "company": "\u05d0\u05d5\u05e7\u05e8\u05d0\u05d9\u05e0\u05d9\u05d9\u05df \u05d0\u05d9\u05e0\u05d8\u05e8\u05e0\u05e9\u05e0\u05dc \u05d0\u05d9\u05d9\u05e8\u05dc\u05d9\u05d9\u05e0\u05e1",
-    "flightNumber": "\n                PS 775\n            ",
-    "cameFrom": "\n\u05e7\u05d9\u05d9\u05d1\n",
-    "flightTime": "13/03 13:05",
-    "finalTime": "13:15",
-    "terminalNumber": "\n                3\n            ",
-    "status": "\u05d1\u05e0\u05d7\u05d9\u05ea\u05d4"
-},{
-    "company": "\u05d0\u05dc \u05e2\u05dc",
-    "flightNumber": "\n                LY 026\n            ",
-    "cameFrom": "\n\u05e0\u05d9\u05d5\u05d0\u05e8\u05e7\n",
-    "flightTime": "13/03 13:20",
-    "finalTime": "12:56",
-    "terminalNumber": "\n                3\n            ",
-    "status": "\u05e0\u05d7\u05ea\u05d4"
-},{
-    "company": "\u05d0\u05d5\u05e8\u05dc \u05d0\u05d9\u05d9\u05e8\u05dc\u05d9\u05d9\u05e0\u05e1",
-    "flightNumber": "\n                U6 889\n            ",
-    "cameFrom": "\n\u05de\u05d5\u05e1\u05e7\u05d1\u05d4\n",
-    "flightTime": "13/03 13:40",
-    "finalTime": "13:40",
-    "terminalNumber": "\n                3\n            ",
-    "status": "\u05e1\u05d5\u05e4\u05d9"
-},{
-    "company": "\u05d0\u05dc \u05e2\u05dc",
-    "flightNumber": "\n                LY 018\n            ",
-    "cameFrom": "\n\u05de\u05d9\u05d0\u05de\u05d9\n",
-    "flightTime": "13/03 13:50",
-    "finalTime": "14:12",
-    "terminalNumber": "\n                3\n            ",
-    "status": "\u05e1\u05d5\u05e4\u05d9"
-},{
-    "company": "AEROMEXICO",
-    "flightNumber": "\n                AM 7874\n            ",
-    "cameFrom": "\n\u05dc\u05d5\u05e1 \u05d0\u05e0\u05d2'\u05dc\u05e1\n",
-    "flightTime": "13/03 14:00",
-    "finalTime": "13:47",
-    "terminalNumber": "\n                3\n            ",
-    "status": "\u05e1\u05d5\u05e4\u05d9"
-},{
-    "company": "\u05d0\u05dc \u05e2\u05dc",
-    "flightNumber": "\n                LY 008\n            ",
-    "cameFrom": "\n\u05e0\u05d9\u05d5 \u05d9\u05d5\u05e8\u05e7\n",
-    "flightTime": "13/03 14:10",
-    "finalTime": "14:11",
-    "terminalNumber": "\n                3\n            ",
-    "status": "\u05e1\u05d5\u05e4\u05d9"
-},{
-    "company": "AEROLINEASARGENTINAS",
-    "flightNumber": "\n                AR 7856\n            ",
-    "cameFrom": "\n\u05e0\u05d9\u05d5 \u05d9\u05d5\u05e8\u05e7\n",
-    "flightTime": "13/03 14:10",
-    "finalTime": "14:11",
-    "terminalNumber": "\n                3\n            ",
-    "status": "\u05e1\u05d5\u05e4\u05d9"
-},{
-    "company": "\u05d9\u05e9\u05e8\u05d0\u05d9\u05d9\u05e8",
-    "flightNumber": "\n                6H 812\n            ",
-    "cameFrom": "\n\u05e1\u05d5\u05e6'\u05d9\n",
-    "flightTime": "13/03 14:50",
-    "finalTime": "14:40",
-    "terminalNumber": "\n                3\n            ",
-    "status": "\u05e1\u05d5\u05e4\u05d9"
-},{
-    "company": "\u05d0\u05de\u05e8\u05d9\u05e7\u05df \u05d0\u05d9\u05d9\u05e8\u05dc\u05d9\u05d9\u05e0\u05e1",
-    "flightNumber": "\n                AA 8384\n            ",
-    "cameFrom": "\n\u05e4\u05e8\u05e0\u05e7\u05e4\u05d5\u05e8\u05d8\n",
-    "flightTime": "13/03 15:00",
-    "finalTime": "14:21",
-    "terminalNumber": "\n                3\n            ",
-    "status": "\u05e1\u05d5\u05e4\u05d9"
-},{
-    "company": "\u05d1\u05e8\u05d9\u05d8\u05d9\u05e9 \u05d0\u05d9\u05d9\u05e8\u05d5\u05d5\u05d9\u05d9\u05d6",
-    "flightNumber": "\n                BA 165\n            ",
-    "cameFrom": "\n\u05dc\u05d5\u05e0\u05d3\u05d5\u05df\n",
-    "flightTime": "13/03 15:15",
-    "finalTime": "15:10",
-    "terminalNumber": "\n                3\n            ",
-    "status": "\u05e1\u05d5\u05e4\u05d9"
-},{
-    "company": "EasyJetEurope",
-    "flightNumber": "\n                EJU 5831\n            ",
-    "cameFrom": "\n\u05d1\u05e8\u05dc\u05d9\u05df\n",
-    "flightTime": "13/03 15:45",
-    "finalTime": "15:45",
-    "terminalNumber": "\n                3\n            ",
-    "status": "\u05dc\u05d0 \u05e1\u05d5\u05e4\u05d9"
-},{
-    "company": "\u05d3\u05dc\u05ea\u05d0 \u05d0\u05d9\u05d9\u05e8\u05dc\u05d9\u05d9\u05e0\u05e1",
-    "flightNumber": "\n                DL 468\n            ",
-    "cameFrom": "\n\u05e0\u05d9\u05d5 \u05d9\u05d5\u05e8\u05e7\n",
-    "flightTime": "13/03 16:05",
-    "finalTime": "15:10",
-    "terminalNumber": "\n                3\n            ",
-    "status": "\u05e1\u05d5\u05e4\u05d9"
-},{
-    "company": "\u05e8\u05d5\u05d9\u05d9\u05dc \u05d2'\u05d5\u05e8\u05d3\u05e0\u05d9\u05d0\u05df",
-    "flightNumber": "\n                RJ 344\n            ",
-    "cameFrom": "\n\u05e2\u05de\u05d0\u05df\n",
-    "flightTime": "13/03 16:55",
-    "finalTime": "16:55",
-    "terminalNumber": "\n                3\n            ",
-    "status": "\u05dc\u05d0 \u05e1\u05d5\u05e4\u05d9"
-},{
-    "company": "RYANAIR",
-    "flightNumber": "\n                FR 6472\n            ",
-    "cameFrom": "\n\u05d1\u05e8\u05dc\u05d9\u05df\n",
-    "flightTime": "13/03 17:35",
-    "finalTime": "17:35",
-    "terminalNumber": "\n                3\n            ",
-    "status": "\u05dc\u05d0 \u05e1\u05d5\u05e4\u05d9"
-},{
-    "company": "\u05e4\u05d2\u05e1\u05d5\u05e1 \u05d0\u05d9\u05d9\u05e8\u05dc\u05d9\u05d9\u05e0\u05e1",
-    "flightNumber": "\n                PC 7779\n            ",
-    "cameFrom": "\n\u05d0\u05d9\u05e1\u05d8\u05e0\u05d1\u05d5\u05dc\n",
-    "flightTime": "13/03 19:50",
-    "finalTime": "19:50",
-    "terminalNumber": "\n                3\n            ",
-    "status": "\u05dc\u05d0 \u05e1\u05d5\u05e4\u05d9"
-},{
-    "company": "\u05d0\u05dc \u05e2\u05dc",
-    "flightNumber": "\n                LY 8806\n            ",
-    "cameFrom": "\n\u05d0\u05d3\u05d9\u05e1 \u05d0\u05d1\u05d1\u05d4\n",
-    "flightTime": "13/03 20:10",
-    "finalTime": "20:10",
-    "terminalNumber": "\n                3\n            ",
-    "status": "\u05dc\u05d0 \u05e1\u05d5\u05e4\u05d9"
-},{
-    "company": "\u05d0\u05ea\u05d9\u05d5\u05e4\u05d9\u05d0\u05df \u05d0\u05d9\u05d9\u05e8\u05dc\u05d9\u05e0\u05e1",
-    "flightNumber": "\n                ET 414\n            ",
-    "cameFrom": "\n\u05d0\u05d3\u05d9\u05e1 \u05d0\u05d1\u05d1\u05d4\n",
-    "flightTime": "13/03 20:10",
-    "finalTime": "20:10",
-    "terminalNumber": "\n                3\n            ",
-    "status": "\u05dc\u05d0 \u05e1\u05d5\u05e4\u05d9"
-},{
-    "company": "\u05d9\u05e9\u05e8\u05d0\u05d9\u05d9\u05e8",
-    "flightNumber": "\n                6H 5830\n            ",
-    "cameFrom": "\n\u05e8\u05d5\u05d1\u05e0\u05d9\u05d9\u05de\u05d9\n",
-    "flightTime": "13/03 21:05",
-    "finalTime": "21:05",
-    "terminalNumber": "\n                3\n            ",
-    "status": "\u05dc\u05d0 \u05e1\u05d5\u05e4\u05d9"
-},{
-    "company": "\u05d9\u05d5\u05e0\u05d9\u05d9\u05d8\u05d3 \u05d0\u05d9\u05d9\u05e8\u05dc\u05d9\u05d9\u05e0\u05e1",
-    "flightNumber": "\n                UA 954\n            ",
-    "cameFrom": "\n\u05e1\u05df \u05e4\u05e8\u05e0\u05e1\u05d9\u05e1\u05e7\u05d5\n",
-    "flightTime": "13/03 21:40",
-    "finalTime": "21:10",
-    "terminalNumber": "\n                3\n            ",
-    "status": "\u05e1\u05d5\u05e4\u05d9"
-},{
-    "company": "\u05d8\u05d5\u05e8\u05e7\u05d9\u05e9 \u05d0\u05d9\u05d9\u05e8\u05dc\u05d9\u05d9\u05e0\u05e1",
-    "flightNumber": "\n                TK 864\n            ",
-    "cameFrom": "\n\u05d0\u05d9\u05e1\u05d8\u05e0\u05d1\u05d5\u05dc\n",
-    "flightTime": "13/03 21:40",
-    "finalTime": "21:40",
-    "terminalNumber": "\n                3\n            ",
-    "status": "\u05dc\u05d0 \u05e1\u05d5\u05e4\u05d9"
-},{
-    "company": "\u05e8\u05d5\u05d9\u05d9\u05dc \u05d2'\u05d5\u05e8\u05d3\u05e0\u05d9\u05d0\u05df",
-    "flightNumber": "\n                RJ 340\n            ",
-    "cameFrom": "\n\u05e2\u05de\u05d0\u05df\n",
-    "flightTime": "13/03 22:45",
-    "finalTime": "22:45",
-    "terminalNumber": "\n                3\n            ",
-    "status": "\u05dc\u05d0 \u05e1\u05d5\u05e4\u05d9"
-},{
-    "company": "\u05e4\u05d9\u05e0\u05d0\u05d9\u05d9\u05e8",
-    "flightNumber": "\n                AY 1979\n            ",
-    "cameFrom": "\n\u05d4\u05dc\u05e1\u05d9\u05e0\u05e7\u05d9\n",
-    "flightTime": "14/03 00:20",
-    "finalTime": "00:20",
-    "terminalNumber": "\n                3\n            ",
-    "status": "\u05dc\u05d0 \u05e1\u05d5\u05e4\u05d9"
-},{
-    "company": "\u05d3\u05dc\u05ea\u05d0 \u05d0\u05d9\u05d9\u05e8\u05dc\u05d9\u05d9\u05e0\u05e1",
-    "flightNumber": "\n                DL 9575\n            ",
-    "cameFrom": "\n\u05d0\u05de\u05e1\u05d8\u05e8\u05d3\u05dd\n",
-    "flightTime": "14/03 02:45",
-    "finalTime": "02:45",
-    "terminalNumber": "\n                3\n            ",
-    "status": "\u05dc\u05d0 \u05e1\u05d5\u05e4\u05d9"
-},{
-    "company": "\u05d0\u05dc \u05e2\u05dc",
-    "flightNumber": "\n                LY 8804\n            ",
-    "cameFrom": "\n\u05d0\u05d3\u05d9\u05e1 \u05d0\u05d1\u05d1\u05d4\n",
-    "flightTime": "14/03 03:00",
-    "finalTime": "03:00",
-    "terminalNumber": "\n                3\n            ",
-    "status": "\u05dc\u05d0 \u05e1\u05d5\u05e4\u05d9"
-},{
-    "company": "\u05d1\u05e8\u05d9\u05d8\u05d9\u05e9 \u05d0\u05d9\u05d9\u05e8\u05d5\u05d5\u05d9\u05d9\u05d6",
-    "flightNumber": "\n                BA 163\n            ",
-    "cameFrom": "\n\u05dc\u05d5\u05e0\u05d3\u05d5\u05df\n",
-    "flightTime": "14/03 03:55",
-    "finalTime": "03:55",
-    "terminalNumber": "\n                3\n            ",
-    "status": "\u05de\u05d1\u05d5\u05d8\u05dc\u05ea"
-},{
-    "company": "RYANAIR",
-    "flightNumber": "\n                FR 4161\n            ",
-    "cameFrom": "\n\u05e4\u05d0\u05e4\u05d5\u05e1\n",
-    "flightTime": "14/03 07:45",
-    "finalTime": "07:45",
-    "terminalNumber": "\n                3\n            ",
-    "status": "\u05dc\u05d0 \u05e1\u05d5\u05e4\u05d9"
-},{
-    "company": "\u05d8\u05d5\u05e8\u05e7\u05d9\u05e9 \u05d0\u05d9\u05d9\u05e8\u05dc\u05d9\u05d9\u05e0\u05e1",
-    "flightNumber": "\n                TK 784\n            ",
-    "cameFrom": "\n\u05d0\u05d9\u05e1\u05d8\u05e0\u05d1\u05d5\u05dc\n",
-    "flightTime": "14/03 08:55",
-    "finalTime": "08:55",
-    "terminalNumber": "\n                3\n            ",
-    "status": "\u05dc\u05d0 \u05e1\u05d5\u05e4\u05d9"
-},{
-    "company": "\u05d0\u05d9\u05d6\u05d9 \u05d2'\u05d8 \u05e9\u05d5\u05d5\u05d9\u05e5",
-    "flightNumber": "\n                EZS 1525\n            ",
-    "cameFrom": "\n\u05d6'\u05e0\u05d1\u05d4\n",
-    "flightTime": "14/03 11:05",
-    "finalTime": "11:05",
-    "terminalNumber": "\n                3\n            ",
-    "status": "\u05dc\u05d0 \u05e1\u05d5\u05e4\u05d9"
-},{
     "company": "\u05d0\u05b5\u05e8\u05d5\u05e4\u05dc\u05d5\u05d8 \u05e8\u05d0\u05e9\u05df \u05d0\u05d9\u05d9\u05e8\u05dc\u05d9\u05d9\u05e0\u05e1",
-    "flightNumber": "\n                SU 502\n            ",
-    "cameFrom": "\n\u05de\u05d5\u05e1\u05e7\u05d1\u05d4\n",
-    "flightTime": "14/03 11:50",
-    "finalTime": "11:50",
-    "terminalNumber": "\n                3\n            ",
-    "status": "\u05dc\u05d0 \u05e1\u05d5\u05e4\u05d9"
-},{
-    "company": "EasyJetEurope",
-    "flightNumber": "\n                EJU 7933\n            ",
-    "cameFrom": "\n\u05d0\u05de\u05e1\u05d8\u05e8\u05d3\u05dd\n",
-    "flightTime": "14/03 13:00",
-    "finalTime": "13:00",
+    "flightNumber": "\n                SU 6627\n            ",
+    "cameFrom": "\n\u05e1\u05d8.\u05e4\u05d8\u05e8\u05e1\u05d1\u05d5\u05e8\u05d2\n",
+    "flightTime": "14/03 13:30",
+    "finalTime": "13:30",
     "terminalNumber": "\n                3\n            ",
     "status": "\u05dc\u05d0 \u05e1\u05d5\u05e4\u05d9"
 }]}
