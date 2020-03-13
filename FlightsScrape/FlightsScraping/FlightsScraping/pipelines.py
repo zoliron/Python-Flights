@@ -8,17 +8,11 @@ import codecs
 import json
 import logging
 import os
-from asyncore import dispatcher
-
-from scrapy import signals
-from scrapy.exporters import JsonItemExporter
 
 
 class FlightsscrapingPipeline(object):
     def __init__(self):
         logging.warning('Initializing Pipeline')
-        # dispatcher.connect(self.open_spider, signals.spider_opened)
-        # dispatcher.connect(self.close_spider, signals.spider_closed)
 
     def open_spider(self, spider):
         logging.warning('Open Spider')
@@ -48,16 +42,3 @@ class FlightsscrapingPipeline(object):
         # line = json.dumps(dict(item)) + "\n"
         self.file.write(line)
         return item
-
-    # def __init__(self):
-    #     self.file = open("json/test.json", 'wb')
-    #     self.exporter = JsonItemExporter(self.file, encoding='utf-8', ensure_ascii=False)
-    #     self.exporter.start_exporting()
-    #
-    # def close_spider(self, spider):
-    #     self.exporter.finish_exporting()
-    #     self.file.close()
-    #
-    # def process_item(self, item, spider):
-    #     self.exporter.export_item(item)
-    #     return item
