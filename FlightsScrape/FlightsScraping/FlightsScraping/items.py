@@ -8,7 +8,7 @@
 import scrapy
 
 
-class FlightsScrapeItem(scrapy.Item):
+class FlightsscrapingItem(scrapy.Item):
     # define the fields for your item here like:
     company = scrapy.Field()
     flightNumber = scrapy.Field()
@@ -17,4 +17,3 @@ class FlightsScrapeItem(scrapy.Item):
     finalTime = scrapy.Field()
     terminalNumber = scrapy.Field()
     status = scrapy.Field()
-

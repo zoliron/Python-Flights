@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Scrapy settings for FlightsScrape project
+# Scrapy settings for FlightsScraping project
 #
 # For simplicity, this file contains only settings considered important or
 # commonly used. You can find more settings consulting the documentation:
@@ -9,14 +9,14 @@
 #     https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 #     https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 
-BOT_NAME = 'FlightsScrape'
+BOT_NAME = 'FlightsScraping'
 
-SPIDER_MODULES = ['FlightsScrape.spiders']
-NEWSPIDER_MODULE = 'FlightsScrape.spiders'
+SPIDER_MODULES = ['FlightsScraping.spiders']
+NEWSPIDER_MODULE = 'FlightsScraping.spiders'
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
-#USER_AGENT = 'FlightsScrape (+http://www.yourdomain.com)'
+#USER_AGENT = 'FlightsScraping (+http://www.yourdomain.com)'
 
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = True
@@ -27,7 +27,7 @@ ROBOTSTXT_OBEY = True
 # Configure a delay for requests for the same website (default: 0)
 # See https://docs.scrapy.org/en/latest/topics/settings.html#download-delay
 # See also autothrottle settings and docs
-# DOWNLOAD_DELAY = 5
+#DOWNLOAD_DELAY = 3
 # The download delay setting will honor only one of:
 #CONCURRENT_REQUESTS_PER_DOMAIN = 16
 #CONCURRENT_REQUESTS_PER_IP = 16
@@ -47,13 +47,13 @@ ROBOTSTXT_OBEY = True
 # Enable or disable spider middlewares
 # See https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 #SPIDER_MIDDLEWARES = {
-#    'FlightsScrape.middlewares.FlightsscrapeSpiderMiddleware': 543,
+#    'FlightsScraping.middlewares.FlightsscrapingSpiderMiddleware': 543,
 #}
 
 # Enable or disable downloader middlewares
 # See https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 #DOWNLOADER_MIDDLEWARES = {
-#    'FlightsScrape.middlewares.FlightsscrapeDownloaderMiddleware': 543,
+#    'FlightsScraping.middlewares.FlightsscrapingDownloaderMiddleware': 543,
 #}
 
 # Enable or disable extensions
@@ -64,9 +64,9 @@ ROBOTSTXT_OBEY = True
 
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
-#ITEM_PIPELINES = {
-#    'FlightsScrape.pipelines.FlightsscrapePipeline': 300,
-#}
+ITEM_PIPELINES = {
+   'FlightsScraping.pipelines.FlightsscrapingPipeline': 300,
+}
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See https://docs.scrapy.org/en/latest/topics/autothrottle.html
@@ -91,3 +91,7 @@ ROBOTSTXT_OBEY = True
 
 # Changes the FEED_EXPORT_ENCODING
 FEED_EXPORT_ENCODING = 'utf-8'
+
+# FEED_FORMAT = 'json'
+#
+# FEED_URI = 'json/flights.json'
