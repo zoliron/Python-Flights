@@ -29,7 +29,10 @@ if __name__ == '__main__':
         print('0. Exit')
 
         selectionNumber = input('Choose your searching category: ')
-        selectionCategory = numbersToCategory(int(selectionNumber))
+        try:
+            selectionCategory = numbersToCategory(int(selectionNumber))
+        except:
+            selectionCategory = "Wrong category"
 
         if selectionCategory == "company":
             company = input('Choose the company you want to search for: ')
@@ -134,4 +137,4 @@ if __name__ == '__main__':
             exit()
 
         else:
-            print('You choose wrong category, please choose again' + "\n")
+            print('You chose wrong category, please choose again' + "\n")
